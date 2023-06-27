@@ -1,0 +1,88 @@
+.logo {
+    width: 9%;
+    height: 9%;
+    min-height: 44px;
+    min-width: 150px;
+}
+
+.nav-button {
+    width: 162px;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+.vid-container {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240, 191, 29, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(240, 191, 29);
+  margin-right: 10px;
+} 
+
+.bg-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  filter: brightness(20%);
+  opacity: 0.9;
+}
+
+.img-container {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.title {
+  color: white;
+  font-size: 8vmin;
+  font-weight: bolder;
+}
+
+.footer-group {
+  font-size: 1.8vmin;
+
+}
+
+.show-constantly {
+  padding-top: calc(140px - 4%);
+}
+
+.home-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 220px;
+  font-weight: bolder;
+}
+
+#map {
+  height: 100%;
+}
+
+.map-container {
+  height: 65%;
+  width: 100%;
+  padding-top: 40px;
+}
